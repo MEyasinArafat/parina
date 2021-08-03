@@ -1,0 +1,108 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    margin-top: 100px;
+}
+.half-width img{
+    width: 80%;
+    padding: 0 20px;
+    margin: 20px;
+    
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+   
+}
+
+.anchor-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.anchor-button:hover{
+    background-color: hsl(14, 94%, 49%);
+    transition: 0.5s;
+}
+
+
+.myself{
+    padding-top: 100px;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+}
+.myself .container .half-width .my-img {
+    width:50%;
+}
+
+
+.recipies{
+    width: 800px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 210px;
+}
+.food-item{
+    display: flex;
+}
+.card img{
+    width: 100%;
+    
+}
+.card{
+    
+    border-radius: 10px;
+    border: 2px solid #9da0a0;
+    box-shadow: 2px 2px 40px #a29fa3ce;
+    padding: 10px;
+    margin: 30px;
+}
+
+.part{
+    width: 1200px;
+    display: flex;
+   
+    
+}
+.social{
+
+    
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(156, 151, 151);
+}
+.one{
+    padding-left: 150px;
+}
+
+.footer{
+    padding-top: 80px;
+}
+.foot-area{
+    color: white;
+    text-align: center;
+    background-color: #0f0c13;
+    height: 250px;
+    padding-top: 80px;
+    
+}
